@@ -1,0 +1,99 @@
+
+body {
+    background-color: red;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: justify; 
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px; 
+    margin-bottom: 20px; 
+    color: #f0e68c;
+    justify-content: center;
+    align-items: center;
+}
+
+#ques {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #e3d44d;
+    text-align: justify; 
+}
+
+#ans {
+    text-align: justify; 
+    color: #e3cd06;
+}
+
+#ans div {
+    margin: 10px 0;
+    font-size: 20px;
+    display: block;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: rgb(247, 10, 10);
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
+    display: block; 
+    margin: 20px auto; 
+}
+
+button:hover {
+    color: rgb(227, 227, 238);
+    background-color: #333;
+    transition: 0.3s;
+}
+
+#score {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #f2e460; 
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    #ques {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+}
